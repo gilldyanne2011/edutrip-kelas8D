@@ -1,27 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar Navigasi</title>
+    <title>Bahasa Indonesia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #fef9e7;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #3f51b5;
+            padding: 15px 30px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        header a:hover {
+            color: #ffc107;
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #3f51b5;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        strong {
+            color: #3f51b5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.04);
+        }
+    </style>
 </head>
 <body>
-     <header>
-         <a href="index.html">Home</a>
-         <a href="agama.html">Agama</a>
-         <a href="pkn.html">PPKN</a>
-         <a href="bahasaindonesia.html">Bahasa Indonesia</a>
-     </header>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="agama.html">Agama</a>
+        <a href="pkn.html">PPKN</a>
+        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+        <a href="ips.html">IPS</a>
+        <a href="bahasainggris.html">Bahasa Inggris</a>
+        <a href="bahasamandarin.html">Mandarin</a>
+        
+    </header>
 
-     <h1>Ini adalah halaman Bahasa Indonesia</h1>
-     <table>
-        <tr>
-            <p>Dalam pelajaran Bahasa Indonesia saya belajar tentang teks Resensi</p>
-        </tr>
-        <tr>
-            <img src="resensi.jpg">
-        <tr>
-        </tr>
-     </table>
+    <div class="container">
+        <h1>Ini adalah halaman Bahasa Indonesia</h1>
+        <p>Dalam pelajaran Bahasa Indonesia, saya belajar tentang <strong>teks Resensi</strong>.</p>
+        <p><strong>Teks resensi</strong> adalah teks yang berisi ulasan atau penilaian terhadap sebuah karya, seperti buku, film, atau musik. Tujuan dari teks ini adalah untuk memberikan informasi dan pertimbangan kepada pembaca tentang kualitas karya tersebut.</p>
+        <img src="AP BI - Teks ulasan (1) (1).png" alt="Contoh Teks Resensi">
+    </div>
 </body>
 </html>
+
